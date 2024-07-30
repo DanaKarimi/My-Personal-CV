@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
-from CV.CV.SecretFile import SECRET_KEY,DEBUG
+# from CV.CV.SecretFile import SECRET_KEY,DEBUG
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -133,3 +133,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'django-insecure-n5luibx7c4%_lxcdx9ls(*@fw!-a#&+eieol8@ggb0eb#n(f#7'
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
