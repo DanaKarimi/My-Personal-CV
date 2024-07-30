@@ -11,7 +11,7 @@ my_env/
 db.sqlite3
 
 # Static folder at project root
-/homepage/static/
+#/homepage/static/
 
 # macOS
 ._*
