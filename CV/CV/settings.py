@@ -117,10 +117,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'productionfiles/admin')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'homepage/static')]
 
 
-STATIC_ROOT = BASE_DIR / 'productionfiles'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 
