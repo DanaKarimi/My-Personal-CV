@@ -120,7 +120,7 @@ STATIC_URL = '/homepage/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'homepage/static')]
 
 
-# STATIC_ROOT = os.path.join(BASE_DIR, "homepage/static")
+STATIC_ROOT = BASE_DIR / 'productionfiles'
 
 
 
