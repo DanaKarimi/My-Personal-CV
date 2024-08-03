@@ -117,7 +117,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'homepage/static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'productionfiles/admin')]
 
 
 STATIC_ROOT = BASE_DIR / 'productionfiles'
