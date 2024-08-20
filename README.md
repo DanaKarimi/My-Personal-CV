@@ -15,5 +15,7 @@ my_env\Scripts\activate
 source venv/bin/activate
 
 # Navigate to the Main Project Directory
+Ensure you are still in the directory where the manage.py file is located.
+
 # Run the Django Development Server
 python manage.py runserver  
