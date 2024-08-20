@@ -12,7 +12,7 @@ Ensure you have Python installed. You can download it from [python.org](https://
 my_env\Scripts\activate
 
 # On macOS/Linux
-source venv/bin/activate
+source my_env/bin/activate
 
 # Navigate to the Main Project Directory
 Ensure you are still in the directory where the manage.py file is located.
